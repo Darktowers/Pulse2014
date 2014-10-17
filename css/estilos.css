@@ -1,0 +1,55 @@
+a
+{
+	color: #22BCE0;
+}
+body
+{
+	background: #EEEEEE;
+	font-family: Arial;
+	font-size: 16px;
+}
+footer
+{
+	background: #22BCE0;
+	color: rgba(255,255,255,0.7);
+	padding: 1em;
+	text-align: center;
+}
+
+header
+{
+	background: #344B54;
+	color: white;
+	overflow: hidden;
+	padding: 0.5em;
+	position: relative;
+}
+header figure
+{
+	float: left;
+}
+header h1
+{
+	font-size: 1.2em;
+	font-weight: normal;
+	
+}
+header .Header-avatar
+{
+	margin: 0.5em 0.5em 0 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+header .Header-avatar img
+{
+	border-radius: 50%;
+	width: 55px;
+}
+header .Header-logo img
+{
+	border-right: 1px solid white;
+	padding-right: 0.5em;
+	margin-right: 0.5em;
+	width: 52px;
+}
