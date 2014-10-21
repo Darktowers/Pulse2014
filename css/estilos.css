@@ -12,11 +12,26 @@ body
 footer
 {
 	background: #22BCE0;
-	color: rgba(255,255,255,0.7);
+	color: rgba(255,255,255,0.6);
 	padding: 1em;
 	text-align: center;
 }
+footer p:first-child{
 
+	margin-bottom: 0;
+}
+footer p:last-child{
+
+	margin-top: 0;
+
+}
+footer p:last-child:after{
+	content: " -";
+}
+
+footer p:last-child:before{
+	content: "- ";
+}
 
 
 header
@@ -58,4 +73,131 @@ header .Header-logo img
 	padding-right: 0.5em;
 	margin-right: 0.5em;
 	width: 52px;
+}
+
+nav{
+	background: #80bca3;
+	text-align: center;
+	padding: 0 0.5em;
+	position: relative;
+}
+nav ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li{
+	display: inline-block;
+	margin: 0 1em 0 0;
+}
+
+nav ul li a{
+
+	color: white;
+	display: block;
+	padding: 0.5em 0;
+	text-decoration: none;
+}
+
+nav ul #Publicar{
+
+	
+	position: absolute;
+	right: 0;
+	top: -0.3em;
+
+
+}
+nav ul #Publicar a{
+
+	background: #22BCE0;
+	padding: 1em;
+	font-style: italic;
+	border-radius: 0.5em;
+	text-decoration: none;
+	padding: 0.7em 0.8em;
+	text-shadow:rgba(0,0,0,0.5) 2px 2px 5px;
+	box-shadow: rgba(0,0,0,0.5) 5px 5px 20px;
+}
+
+#contenido{
+
+	margin: 1em;
+	
+
+}
+
+.Contenido .Contenido-item{
+	background: white;
+	
+	border-bottom: 3px solid #22BCE0;
+	position: relative;
+	min-height: 128px;
+	margin-bottom: 3em;
+	
+}
+.Contenido .Contenido-itemAutor{
+	color: #aaa;
+
+}
+.Contenido .Contenido-datos{
+	margin:1em 1em 0 0;
+	text-align: right;
+
+}
+.Contenido .Contenido-itemFecha{
+	
+color: #aaa;
+}
+.Contenido .Contenido-itemTag{
+	background:#F4502A; 
+	color: white;
+	text-decoration: none;
+	padding: 0.2em 0.5em;
+	display: inline-block;
+	border-radius: 0.5em;
+	float: left;
+
+}
+
+.Contenido .Contenido-item .Contenido-itemImage{
+	float: left;
+	margin: 0 1em 0 0;
+
+
+}
+.Contenido .Contenido-item .Contenido-itemImage img{
+	width: 96px;
+	
+}
+.Contenido .Contenido-itemTitulo{
+
+	font-size: 1.2em;
+	font-style: italic;
+	padding:1em 1em 0 0; 
+}
+.Contenido .Contenido-itemTitulo a{
+
+	color: #444;
+	text-decoration: none;
+}
+
+.Contenido .votacion{
+	background: white;
+	position: absolute;
+	border-radius: 0 0 0.5em 0.5em;
+	top:100%;
+	width: 90%;
+	left: 5%;
+	margin-top: 3px;
+	padding:0.2em 0.5em;
+	
+}
+.Contenido .Contenido-itemComentarios ,
+.Contenido .Contenido-itemGuardar 
+{
+	float: right;
+
+
 }
