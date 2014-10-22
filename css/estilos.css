@@ -24,7 +24,7 @@
 	-moz-osx-font-smoothing: grayscale;
 }
 
-.icon-com:before {
+.icon-com:after {
 	content: "\e600";
 }
 .icon-pen:after {
@@ -258,4 +258,19 @@ color: #aaa;
 .votacion .Contenido-itemUp {
 
 	color: #23BA63;
+}
+.votacion .icon-com{
+
+	color: #7A7A7A;
+	font-size: 1.5em;
+}
+.votacion .Contenido-itemGuardar{
+
+	color: #FFBE13;
+	font-size: 1.2em;
+	margin: 0 0.2em 0 0.2em;
+
+}
+.Contenido .Contenido-itemComentarios{
+	vertical-align: top;
 }
