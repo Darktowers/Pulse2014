@@ -331,13 +331,15 @@ color: #aaa;
 
 
 
+@media screen and (max-width:480px){
+	form input{
+		margin:0 2.5em;
+	}
 
+}
 
 @media screen and (min-width:800px){
 
-	body{
-		background: red;
-	}
 	
 	#contenido{
 		
@@ -354,6 +356,7 @@ color: #aaa;
 		margin-right:2%; 
 
 	}
+	
 
 }
 
@@ -368,4 +371,32 @@ color: #aaa;
 	aside video{
 		width: 100%;
 	}
+	
+}
+
+/*Formulario*/
+
+form{
+	text-align: right;
+	padding: 1em 0em 0em 0em;
+	text-align: center;
+
+}
+
+form input{
+
+	border: 0.5px solid #ccc;
+	padding: 0.5em 0.8em;
+	border-radius: 3px;
+}
+
+form input[type=submit]{
+	border: 0.5px solid #22BCE0;
+	background: none repeat scroll 0% 0% #22BCE0;
+	font-style: italic;
+	text-decoration: none;
+	text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+	box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+	font-weight: lighter;
+	color: white;
 }

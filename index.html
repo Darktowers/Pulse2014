@@ -8,6 +8,7 @@
 	<link rel="stylesheet" href="css/estilos.css">
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic,300' rel='stylesheet' type='text/css'/>
 	</head>
+	<script></script>
 
 	
 </head>
@@ -38,9 +39,16 @@
 			<li class="Menu-item"><a href="#" class="Menu-link" >CSS3</a></li>
 			<li class="Menu-item"><a href="#" class="Menu-link" >Django</a></li>
 			<li class="Menu-itemPublicar" id="Publicar" >
-				<a href="#" >Publicar <span class="icon-pen"></span></a></li>
+				<a href="#" class="mostrar-form">Publicar <span class="icon-pen "></span></a></li>
 		</ul>
 	</nav>
+
+	<form action="" id="formulario">
+		<input type="text" id="titulo" placeholder="Titulo" required> 
+		<input type="url" id="url" placeholder="Link" required >
+		<input type="submit" id="button" value="Agregar">
+	</form>
+
 	<aside>
 		<video width="320" height="240" autoplay>
 		<source src="lecturas.m4v" type="video/mp4">
@@ -254,6 +262,8 @@
 			<strong>Ultimate Boost 2014</strong>
 		</p>
 	</footer>
+	<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+	<script src="js/formulario.js"></script>
 </body>
 </html>
 				
