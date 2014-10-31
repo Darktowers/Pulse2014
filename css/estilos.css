@@ -378,8 +378,9 @@ color: #aaa;
 
 form{
 	text-align: right;
-	padding: 1em 0em 0em 0em;
+	padding: 1em 0em 1em 0em;
 	text-align: center;
+	display: none;
 
 }
 

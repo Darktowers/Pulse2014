@@ -4,12 +4,14 @@ var $form = $('#formulario'),
 	$botton = $('.mostrar-form'),
 	$list = $('#contenido'),
 	$post = $('.Contenido-item').first();
-
+	$video =$('video');
 
 	//events
 function mostrarFormulario(){
 
 	$form.slideToggle();
+	$list.slideToggle();
+	$video.slideToggle();
 	return false;
 }
 
@@ -26,6 +28,10 @@ function agregarPost(){
 		$list.prepend($clone);
 
 		$clone.fadeIn();
+		mostrarFormulario();
+
+		$("#url").val("");
+		$("#titulo").val("");
 
 		return false;
 
