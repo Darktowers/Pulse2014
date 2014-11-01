@@ -39,4 +39,5 @@ function agregarPost(){
 }
 	$botton.click(mostrarFormulario);
 	$form.on('submit',agregarPost);
+	xcvbvbvvc
 
